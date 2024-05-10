@@ -454,7 +454,7 @@ Actual: `+R.attribValue);else{var Ne=R.tag,Ge=R.tags[R.tags.length-1]||R;Ne.ns==
                     pt-4\r
                     `,children:[g.jsxs("div",{className:`icon-cart cursor-pointer \r
                         w-[1.6rem] h-[1. 6rem] relative\r
-                        group/cart`,children:[g.jsx(Lw,{onClick:P=>{P.preventDefault(),o(D=>!D),b=0},className:`w-[100%] h-[100%] relative\r
+                        group/cart`,children:[g.jsx(Lw,{onClick:P=>{P.preventDefault(),n(!1),o(D=>!D),b=0},className:`w-[100%] h-[100%] relative\r
                         hover:animate-pulse\r
                         hover:text-amber-950\r
                         group-hover/cart:scale-125\r
@@ -494,13 +494,13 @@ Actual: `+R.attribValue);else{var Ne=R.tag,Ge=R.tags[R.tags.length-1]||R;Ne.ns==
                                     inline-flex gap-2\r
                                     place-content-center\r
                                     place-items-center\r
-                                    transform`,children:[g.jsx(qe,{onClick:()=>{De("SIGN_IN_PAGE",200),o(!1)},to:"/sign-in",className:`pl-2 pr-2\r
+                                    transform`,children:[g.jsx(qe,{onClick:()=>{De("SIGN_IN_PAGE",200),o(!1),n(!1)},to:"/sign-in",className:`pl-2 pr-2\r
                                         border-2 border-slate-800\r
                                         rounded-full\r
                                         hover:bg-amber-300\r
                                         hover:scale-110\r
                                         duration-300\r
-                                        ease-in-out`,children:"Sign-In"}),g.jsx(qe,{onClick:()=>{De("SIGN_UP_PAGE",200),o(!1)},to:"/sign-up",className:`pl-2 pr-2\r
+                                        ease-in-out`,children:"Sign-In"}),g.jsx(qe,{onClick:()=>{De("SIGN_UP_PAGE",200),o(!1),n(!1)},to:"/sign-up",className:`pl-2 pr-2\r
                                         border-2 border-slate-800\r
                                         rounded-full\r
                                         hover:bg-amber-300\r
@@ -572,7 +572,7 @@ Actual: `+R.attribValue);else{var Ne=R.tag,Ge=R.tags[R.tags.length-1]||R;Ne.ns==
                     overflow-y-auto\r
                     overflow-x-hidden\r
                     transition-transform\r
-                    `,children:v==null?void 0:v.map((P,D)=>{const O=Mt.find(S=>S.id==P.productId);let L=(O.isOnSale?O.onSalePrice:O.price)*parseInt(P.value);return b+=L,g.jsx(g.Fragment,{children:g.jsxs("div",{className:`inline-flex relative\r
+                    `,children:v==null?void 0:v.map((P,D)=>{const O=Mt.find(S=>S.id==P.productId);let L=(O.isOnSale?O.onSalePrice:O.price)*parseInt(P.value);return b+=L,g.jsx(g.Fragment,{children:g.jsxs("div",{onClick:S=>{S.preventDefault(),o(!1)},className:`inline-flex relative\r
                                         group/item w-[100%]`,children:[g.jsx(qn,{product:O,isOnCart:!0},D),g.jsxs("div",{className:`\r
                                             flex\r
                                             gap-6\r
